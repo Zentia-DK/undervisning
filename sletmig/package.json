@@ -1,12 +1,11 @@
 {
-  "name": "latest",
+  "name": "sletmig",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deplay": "npm run build && firebase deploy",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,6 +14,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
+    "sass": "^1.71.0",
     "vite": "^5.0.10"
   }
 }
